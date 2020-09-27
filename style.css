@@ -1,0 +1,29 @@
+body {
+    font-family: monospace;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.education, .skills, .about-me {
+    padding-left: 20px;
+}
+ul {
+    padding-left: 30px;
+}
+li {
+    list-style-type: square;
+    padding-top: 5px;
+}
+li:first-child {
+    padding-top: 0;
+}
+p {
+    padding-left: 15px;
+}
+
+footer > ul > li {
+    list-style-type: none;
+}
+
